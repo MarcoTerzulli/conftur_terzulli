@@ -2,8 +2,8 @@
 Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **Marco Terzulli**.
 
 ## 1 Contenuto della cartella di progetto
- * Test Pipeline Download e Preprocess - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
-	*  pipeline_cit_alpha_1.ipynb - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
+ * <ins>Test Pipeline Download e Preprocess</ins> - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
+	*  <ins>pipeline_cit_alpha_1.ipynb</ins> - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
  * TODO
  
  
