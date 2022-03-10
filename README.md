@@ -2,7 +2,8 @@
 Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **Marco Terzulli**.
 
 ## 1 Contenuto della cartella di progetto
- * Interfaccia_Web - Cartella contenente le pagine web per un interfaccia front e back end di base
+ * Test Pipeline Download e Preprocess - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
+	*  
  * TODO
  
  
