@@ -3,9 +3,10 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 
 ## 1 Contenuto della cartella di progetto
  * **Test Pipeline Download e Preprocess** - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
+	* **Old Files Backup** - Cartella di di backup per i vecchi file di lavoro
+		*  **preprocess_opencitations_alpha_1.ipynb** - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Per singolo file (*versione Alpha*)
+		*  **preprocess_opencitations_alpha_2.ipynb** - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge di due file (*versione Alpha*)
 	*  **pipeline_cit_alpha_1.ipynb** - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
-	*  **preprocess_opencitations_alpha_1.ipynb** - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Per singolo file (*versione Alpha*)
-	*  **preprocess_opencitations_alpha_2.ipynb** - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge di due file (*versione Alpha*)
 	*  **preprocess_opencitations_alpha_3.ipynb** - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge sequenziale di tutti i file 
 	*  **preprocess_opencitations_alpha_3_benchmark.ipynb** - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge sequenziale di tutti i file in una directory **con benchmark** (*versione Alpha*)
  * TODO
