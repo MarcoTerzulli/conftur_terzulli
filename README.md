@@ -23,7 +23,7 @@ Le seguenti istruzioni ti permetteranno di avere una copia del progetto funziona
 Software da installare affinché il progetto funzioni, e come installarlo.
 
 ```
-* Una macchina con sitema operativo Windows, Linux o MacOS
+* Una macchina con sistema operativo Windows, Linux o MacOS
 * Python 3.7+
 * Python Pip3
 * TODO
