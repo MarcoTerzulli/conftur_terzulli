@@ -29,6 +29,15 @@ Software da installare affinché il progetto funzioni, e come installarlo.
 * TODO
 ```
 
+### 2.2 Librerie da Installare TODO
+
+Librerie Python da installare affinché il progetto funzioni, e come installarlo.
+
+```
+* Pandas
+* TODO
+```
+
 ### 2.2 TODO
 
 TODO: <br />
