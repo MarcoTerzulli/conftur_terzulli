@@ -1,23 +1,22 @@
 # ConfTur Terzulli
 Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **Marco Terzulli**.
 
-<details>
-  <summary>Indice</summary>
-  <ol>
-    <li>
-      <a href="#contenuto-della-cartella-di-progetto">Contenuto della Cartella di Progetto</a>
-    </li>
-    <li>
-      <a href="#per-iniziare">Per Iniziare</a>
-      <ul>
-        <li><a href="#prerequisiti">Prerequisiti</a></li>
-        <li><a href="#installaione">Installazione</a></li>
-      </ul>
-    </li>
-    <li><a href="#software-usato-per-lo-sviluppo">Software Usato per lo Sviluppo</a></li>
-    <li><a href="#problemi-noti">Problemi Noti</a></li>
-  </ol>
-</details>
+## Indice dei Contenuti
+<summary>Indice</summary>
+<ol>
+<li>
+<a href="#contenuto-della-cartella-di-progetto">Contenuto della Cartella di Progetto</a>
+</li>
+<li>
+<a href="#per-iniziare">Per Iniziare</a>
+<ul>
+<li><a href="#prerequisiti">Prerequisiti</a></li>
+<li><a href="#installaione">Installazione</a></li>
+</ul>
+</li>
+<li><a href="#software-usato-per-lo-sviluppo">Software Usato per lo Sviluppo</a></li>
+<li><a href="#problemi-noti">Problemi Noti</a></li>
+</ol>
 
 ## Contenuto della Cartella di Progetto
  * ```Test Pipeline Download e Preprocess``` - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
