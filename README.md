@@ -27,6 +27,9 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 		*  ```preprocess_opencitations_alpha_2.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge di due file. **ATTENZIONE**: Il conteggio delle citazioni è rotto. (*versione Alpha*)
 	*  ```preprocess_opencitations_beta_3.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations.  Script per elaborazione e merge sequenziale di tutti i file in una directory. Aggiunta possibilità di merge con CSV parziale. (*versione Beta*)
  * TODO
+ * 
+
+<p align="right">(<a href="#top">torna in cima</a>)</p>
  
  
 ## Per iniziare
@@ -55,12 +58,17 @@ Librerie Python da installare affinché il progetto funzioni, e come installarlo
 
 TODO: <br />
 
+<p align="right">(<a href="#top">torna in cima</a>)</p>
+
 
 
 ## Software Usato per lo Sviluppo
 * [Jupyter Notebook](https://jupyter.org/) - Piattaforma di sviluppo per il linguaggio Python
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE usato per sviluppo e test
 
-## Problemi noti
+<p align="right">(<a href="#top">torna in cima</a>)</p>
 
+## Problemi noti
 * 
+
+<p align="right">(<a href="#top">torna in cima</a>)</p>
