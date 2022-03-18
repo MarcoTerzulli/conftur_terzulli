@@ -1,7 +1,25 @@
 # ConfTur Terzulli
 Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **Marco Terzulli**.
 
-## Contenuto della cartella di progetto
+<details>
+  <summary>Indice</summary>
+  <ol>
+    <li>
+      <a href="#contenuto-della-cartella-di-progetto">Contenuto della Cartella di Progetto</a>
+    </li>
+    <li>
+      <a href="#per-iniziare">Per Iniziare</a>
+      <ul>
+        <li><a href="#prerequisiti">Prerequisiti</a></li>
+        <li><a href="#installaione">Installazione</a></li>
+      </ul>
+    </li>
+    <li><a href="#software-usato-per-lo-sviluppo">Software Usato per lo Sviluppo</a></li>
+    <li><a href="#problemi-noti">Problemi Noti</a></li>
+  </ol>
+</details>
+
+## Contenuto della Cartella di Progetto
  * ```Test Pipeline Download e Preprocess``` - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
 	* ```Old Files Backup``` - Cartella di di backup per i vecchi file di lavoro
 		*  ```pipeline_cit_alpha_1.ipynb``` - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
@@ -11,11 +29,11 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
  * TODO
  
  
-## 2 Per iniziare
+## Per iniziare
 
 Le seguenti istruzioni ti permetteranno di avere una copia del progetto funzionante sulla tua macchina locale.
 
-### 2.1 Prerequisiti TODO
+### Prerequisiti TODO
 
 Software da installare affinché il progetto funzioni, e come installarlo.
 
@@ -26,8 +44,6 @@ Software da installare affinché il progetto funzioni, e come installarlo.
 * TODO
 ```
 
-### 2.2 Librerie da Installare TODO
-
 Librerie Python da installare affinché il progetto funzioni, e come installarlo.
 
 ```
@@ -35,16 +51,16 @@ Librerie Python da installare affinché il progetto funzioni, e come installarlo
 * TODO
 ```
 
-### 2.2 TODO
+### TODO
 
 TODO: <br />
 
 
 
-## 5 Software usato per lo sviluppo
+## Software Usato per lo Sviluppo
 * [Jupyter Notebook](https://jupyter.org/) - Piattaforma di sviluppo per il linguaggio Python
 * [Visual Studio Code](https://code.visualstudio.com/) - IDE usato per sviluppo e test
 
-## 6 Problemi noti
+## Problemi noti
 
 * 
