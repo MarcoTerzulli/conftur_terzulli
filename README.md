@@ -33,7 +33,7 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 
 Le seguenti istruzioni ti permetteranno di avere una copia del progetto funzionante sulla tua macchina locale.
 
-### Prerequisiti TODO
+### Prerequisiti
 
 Software da installare affinché il progetto funzioni, e come installarlo.
 
