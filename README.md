@@ -25,6 +25,7 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 		*  ```preprocess_opencitations_alpha_2.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge di due file. **ATTENZIONE**: Il conteggio delle citazioni è rotto. (*versione Alpha*)
 		*  ```preprocess_opencitations_beta_3.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations.  Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump. (*versione Beta*)
 	*  ```preprocess_opencitations.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations.  Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump.
+	*  ```preprocess_mag_alpha_1.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph.  (*versione Alpha*)
  * TODO
  * 
 
