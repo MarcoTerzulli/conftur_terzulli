@@ -19,14 +19,14 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 
 ## Contenuto della Cartella di Progetto
  * ```Test Pipeline Download e Preprocess``` - Cartella di lavoro contenente i notebook di test per la gestione della pipeline relativa al download e preprocessing dei dati di partenza sulle citazioni
-	* ```Old Files Backup``` - Cartella di di backup per i vecchi file di lavoro
-		<details>
-			*  ```pipeline_cit_alpha_1.ipynb``` - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
-			*  ```preprocess_mag_alpha_1.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph. Completati elaborazione e merge delle tabelle sulle conferenze. (*versione Alpha*)
-			*  ```preprocess_opencitations_alpha_1.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Per singolo file (*versione Alpha*)
-			*  ```preprocess_opencitations_alpha_2.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge di due file. **ATTENZIONE**: Il conteggio delle citazioni è rotto. (*versione Alpha*)
-			*  ```preprocess_opencitations_beta_3.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump. (*versione Beta*)
-		</details>
+	<details>
+	<summary>* ```Old Files Backup``` - Cartella di di backup per i vecchi file di lavoro</summary>
+		*  ```pipeline_cit_alpha_1.ipynb``` - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
+		*  ```preprocess_mag_alpha_1.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph. Completati elaborazione e merge delle tabelle sulle conferenze. (*versione Alpha*)
+		*  ```preprocess_opencitations_alpha_1.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Per singolo file (*versione Alpha*)
+		*  ```preprocess_opencitations_alpha_2.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Test di elaborazione e merge di due file. **ATTENZIONE**: Il conteggio delle citazioni è rotto. (*versione Alpha*)
+		*  ```preprocess_opencitations_beta_3.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump. (*versione Beta*)
+	</details>
 	*  ```preprocess_opencitations.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump.
 	*  ```preprocess_mag_alpha_2.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph. (*versione Alpha*)
  * TODO
