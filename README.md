@@ -16,6 +16,7 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 	<li><a href="#dump-datasets-citazioni">Dump Datasets Citazioni</a></li>
 	<li><a href="#software-usato-per-lo-sviluppo">Software Usato per lo Sviluppo</a></li>
 	<li><a href="#problemi-noti">Problemi Noti</a></li>
+	<li><a href="#riferimenti">Riferimenti</a></li>
 </ol>
 
 ## Contenuto della Cartella di Progetto
@@ -72,6 +73,11 @@ Ai seguenti URL è possibile scaricare i dump dei dataset di partenza utilizzati
 <p align="right">(<a href="#top">torna in cima</a>)</p>
 
 ## Problemi noti
+* 
+
+<p align="right">(<a href="#top">torna in cima</a>)</p>
+
+## Riferimenti
 * 
 
 <p align="right">(<a href="#top">torna in cima</a>)</p>
