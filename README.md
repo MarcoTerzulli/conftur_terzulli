@@ -58,6 +58,7 @@ TODO: <br />
 
 
 ## Dump Datasets Citazioni
+Ai seguenti URL è possibile scaricare i dump dei dataset di partenza utilizzati:
 * [DBLP](https://dblp.uni-trier.de/xml/) - Dump Digital Bibliography & Library Project,
 * [Microsoft Academics Graph](https://archive.org/download/mag-2021-06-07/mag/) - Dump *MAG* - Piattaforma dismessa. Dump disponibile sulla piattaforma Archive.org
 * [OpenCitations COCI](https://opencitations.net/download) - Dump Crossref OpenCitations Index
