@@ -13,6 +13,7 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 			<li><a href="#installaione">Installazione</a></li>
 		</ul>
 	</li>
+	<li><a href="#dump-datasets-citazioni">Dump Datasets Citazioni</a></li>
 	<li><a href="#software-usato-per-lo-sviluppo">Software Usato per lo Sviluppo</a></li>
 	<li><a href="#problemi-noti">Problemi Noti</a></li>
 </ol>
@@ -55,6 +56,13 @@ TODO: <br />
 <p align="right">(<a href="#top">torna in cima</a>)</p>
 
 
+
+## Dump Datasets Citazioni
+* [DBLP](https://dblp.uni-trier.de/xml/) - Dump Digital Bibliography & Library Project,
+* [Microsoft Academics Graph](https://archive.org/download/mag-2021-06-07/mag/) - Dump *MAG* - Piattaforma dismessa. Dump disponibile sulla piattaforma Archive.org
+* [OpenCitations COCI](https://opencitations.net/download) - Dump Crossref OpenCitations Index
+
+<p align="right">(<a href="#top">torna in cima</a>)</p>
 
 ## Software Usato per lo Sviluppo
 * [Jupyter Notebook](https://jupyter.org/) - Piattaforma di sviluppo per il linguaggio Python
