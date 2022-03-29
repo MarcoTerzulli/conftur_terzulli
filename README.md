@@ -78,6 +78,6 @@ Ai seguenti URL è possibile scaricare i dump dei dataset di partenza utilizzati
 <p align="right">(<a href="#top">torna in cima</a>)</p>
 
 ## Riferimenti
-* 
+* [Notebook Emerging Topics Corpora](https://github.com/hibernator11/notebook-emerging-topics-corpora) - Source of the DBLP XML to CSV Processing Class
 
 <p align="right">(<a href="#top">torna in cima</a>)</p>
