@@ -27,6 +27,7 @@ Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **M
 		*  ```preprocess_opencitations_beta_3.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump. (*versione Beta*)
 	*  ```preprocess_opencitations.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump.
 	*  ```preprocess_mag.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph. Possibilità di utilizzo di un CSV preprocessato per il file Papers (risultato da una precedente elaborazione mediante questo script).
+	*  ```XMLToCSV.py``` - Script Python per la conversione del Dump di DBLP da XML a CSV. Lo script è stato realizzato da *Thom Hurks* (vedere sezione Riferimenti)
  * TODO
  * 
 
@@ -78,6 +79,6 @@ Ai seguenti URL è possibile scaricare i dump dei dataset di partenza utilizzati
 <p align="right">(<a href="#top">torna in cima</a>)</p>
 
 ## Riferimenti
-* [Notebook Emerging Topics Corpora](https://github.com/hibernator11/notebook-emerging-topics-corpora) - Source of the DBLP XML to CSV Processing Class
+* [Repository dblp-to-csv](https://github.com/ThomHurks/dblp-to-csv) - Source of the DBLP XML to CSV Conversion Script
 
 <p align="right">(<a href="#top">torna in cima</a>)</p>
