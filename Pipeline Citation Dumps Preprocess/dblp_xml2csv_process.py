@@ -3,6 +3,9 @@
 
 # Link to the repository https://github.com/hibernator11/notebook-emerging-topics-corpora
 
+# NOTE: Small modifications have been made to add the possibility to save
+# the resulting file in a specified path
+
 import xml.sax
 import pandas as pd
 import pickle
@@ -59,8 +62,10 @@ class DBLP_Handler(xml.sax.ContentHandler ):
                    title = self.content[(entry_type, key, 'TITLE')].replace('\t', ' ')
                    f.write('\t'.join([entry_type, key, str(year), title]))
                    f.write('\n')
-           
-    def save(self):
+
+    # Added output path and removed compression    
+    def save(self, path):
+    #def save(self):
         res = dict()
         for (entry_type, key, tag), value in self.content.items():
             res.setdefault(key, {'TYPE':entry_type})
@@ -68,7 +73,8 @@ class DBLP_Handler(xml.sax.ContentHandler ):
         with open('/tmp/output.pkl', 'bw') as f:
             pickle.dump(res, f)
         df = pd.DataFrame(res.values(), index=res.keys())     
-        df.to_csv('/tmp/output.csv.gz', sep='\t', compression='gzip')
+        #df.to_csv('/tmp/output.csv.gz', sep='\t', compression='gzip')
+        df.to_csv(path + 'out_dblp_raw.csv', sep='\t')
 
 # This part of the original code is commented since the class' functions are
 # going to be called in a separated Notebook.        
