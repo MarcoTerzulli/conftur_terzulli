@@ -6,7 +6,7 @@ import numpy as np
 
 # Get the conference location from DBLP
 # Called during the MAG preprocess
-def get_mag_conf_location_from_dblp(link):
+def get_conf_location_from_dblp(link):
     html = urlopen(link)
     bsh = BeautifulSoup(html.read(), 'html.parser').h1
     try:
@@ -18,13 +18,12 @@ def get_mag_conf_location_from_dblp(link):
 # Called during the MAG preprocess
 def mt_get_mag_conf_location_from_dblp_operation(conf_name, dblp_url):
     try:
-        s = str(conf_name).split(' ')
-        url = dblp_url + "conf/" + s[0] + '/' + s[0] + s[1] + '.html'
-        #print(url)
+        s = str(conf_name).split(' ') # example: "dexa 2002"
+        url = dblp_url + "conf/" + s[0] + '/' + s[0] + s[1] + '.html' # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
     except:
         pass
     try:
-        d_item = get_mag_conf_location_from_dblp(url)
+        d_item = get_conf_location_from_dblp(url)
     except:
         d_item = np.nan
     return conf_name, d_item
