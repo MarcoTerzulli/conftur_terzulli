@@ -19,7 +19,7 @@ def get_conf_location_from_dblp(link):
 def mt_get_mag_conf_location_from_dblp_operation(conf_name, dblp_url):
     try:
         s = str(conf_name).split(' ') # example: "dexa 2002"
-        url = dblp_url + "conf/" + s[0] + '/' + s[0] + s[1] + '.html' # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
+        url = dblp_url + s[0] + '/' + s[0] + s[1] + '.html' # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
     except:
         pass
     try:
