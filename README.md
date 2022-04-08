@@ -76,7 +76,7 @@ Ai seguenti URL è possibile scaricare i dump dei dataset di partenza utilizzati
 ## Appendice
 
 ### Contenuto della Cartella di Progetto
-* ```Pipeline Citation Dumps Preprocess``` - Cartella di lavoro contenente i notebook per la gestione della pipeline relativa al preprocessing dei dati di partenza sulle citazioni
+* ```1 - Citation Dumps Preprocess``` - Cartella di lavoro contenente i notebook per la gestione della pipeline relativa al preprocessing dei dati di partenza sulle citazioni
 	* ```Old Files Backup``` - Cartella di di backup per i vecchi file di lavoro
 		*  ```pipeline_cit_alpha_1.ipynb``` - Jupyter Notebook per la gestione di download e preprocessing dei dati di partenza sulle citazioni (*versione Alpha*)
 		*  ```preprocess_mag_beta_1.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph. Possibilità di utilizzo di un CSV preprocessato per il file Papers. (*versione Beta*)
