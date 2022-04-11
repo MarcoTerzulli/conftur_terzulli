@@ -4,7 +4,7 @@ For this phase of the work you have two possibilities:
 * use the data already obtained from a previous work
 * obtain new clean conferences locations data making queries to the DBLP website
 
-During our tests we found out that DBLP servers were refusing the connections from our IPs, making our web scraper unreliable.
+During our tests we found out that **DBLP servers were refusing the connections from our IPs**, making our web scraper unreliable.
 For this reason, we decided to use the conference location data obtained from a previous thesis work that you can fine [here](https://github.com/lbedogni/conftur).
 
 ## Use the Data Already Obtained from a Previous Work
