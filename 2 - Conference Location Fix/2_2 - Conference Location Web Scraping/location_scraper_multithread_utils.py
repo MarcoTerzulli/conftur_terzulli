@@ -8,8 +8,8 @@ import numpy as np
 
 # Get the conference location from DBLP
 # Called during the MAG preprocess
-def get_conf_location_from_dblp_v1(link):
-    html = urlopen(link)
+def get_conf_location_from_dblp_v1(url):
+    html = urlopen(url)
     header = BeautifulSoup(html.read(), 'html.parser').h1
     try:
         return str(header).split(':')[1].split('<')[0][1:] # da verificare
@@ -35,23 +35,15 @@ def mt_get_mag_conf_location_from_dblp_operation_v1(conf_name, dblp_url):
 
 # Get the conference location from DBLP
 # Called during the MAG preprocess
-def get_conf_location_from_dblp_v2(link, year):
-    html = urlopen(link)
-    h2s = BeautifulSoup(html.read(), 'html.parser').find_all("h2")
-    print("dentro")
-    print(h2s)
+def get_conf_location_from_dblp_v2(url, year):
+    html = urlopen(url)
+    h2 = BeautifulSoup(html.read(), 'html.parser').find(id=year)
 
-    for this_h2 in h2s:
-        print(this_h2.text) # TODO DEBUG
-        print(this_h2.id) # TODO DEBUG
-        if this_h2.id == year:
-            try:
-                print("Tag trovato! " + this_h2.text.split(": ")[1]) # TODO DEBUG
-                return this_h2.text.split(": ")[1] # 17th ICON 2011: Singapore --> Singapore
-            except:
-                return np.nan
-
-    return np.nan
+    print(f"{url} - Year {year}: {h2}") # TODO DEBUG
+    try:
+        return h2.text.split(": ")[1] # 17th ICON 2011: Singapore --> Singapore
+    except:
+        return np.nan
 
 # Prepare the URL and get the conference location from DBLP
 # Called during the MAG preprocess
@@ -59,7 +51,6 @@ def mt_get_mag_conf_location_from_dblp_operation_v2(conf_name, dblp_url):
     try:
         s = str(conf_name).split(' ') # example: "dexa 2002"
         url = dblp_url + s[0] + '/index.html' # example: "https://dblp.org/db/conf/dexa/index.html"
-        print(url) # TODO DEBUG
     except:
         pass
     try:
