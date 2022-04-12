@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import numpy as np
 
 
-# ************ Scraper V1 ***************
+# ************ MAG Scraper V1 ***************
 
 # Get the conference location from DBLP
 # Called during the MAG preprocess
@@ -34,7 +34,7 @@ def mt_get_mag_conf_location_from_dblp_operation_v1(conf_name, dblp_url):
     return conf_name, d_item
 
 
-# ************ Scraper V2 ***************
+# ************ MAG Scraper V2 ***************
 
 # Get the conference location from DBLP
 # Called during the MAG preprocess
@@ -42,7 +42,7 @@ def get_conf_location_from_dblp_v2(url):
     html = urlopen(url)
     header = BeautifulSoup(html.read(), 'html.parser').h1
     try:
-        return str(header).split(':')[1].split('<')[0][1:] # da verificare
+        return str(header).split(':')[1].split('<')[0][1:]
     except:
         return None
 
@@ -60,6 +60,25 @@ def mt_get_mag_conf_location_from_dblp_operation_v2(conf_name, dblp_url):
     except:
         d_item = np.nan
     return conf_name, d_item
+
+
+# ************ DBLP Scraper ***************
+# Prepare the URL and get the conference location from DBLP
+# Called during the DBLP preprocess
+def mt_get_dblp_conf_location_from_dblp_operation(conf_name, dblp_url):
+    try:
+        s = str(conf_name).split(' ') # example: "dexa 2002"
+        url = dblp_url + s[0] + '/' + s[0] + s[1] + '.html' # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
+        print(url) # TODO DEBUG
+    except:
+        pass
+    try:
+        d_item = get_conf_location_from_dblp_v2(url)
+    except:
+        d_item = np.nan
+    return conf_name, d_item
+
+
 
 ########### OLD
 
