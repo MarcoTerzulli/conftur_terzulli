@@ -3,6 +3,7 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import numpy as np
+from time import sleep
 
 
 # ************ MAG Scraper V1 ***************
@@ -21,8 +22,10 @@ def get_conf_location_from_dblp_v1(url, year):
 
 # Prepare the URL and get the conference location from DBLP
 # Called during the MAG preprocess
-def mt_get_mag_conf_location_from_dblp_operation_v1(conf_name, dblp_url):
+def mt_get_mag_conf_location_from_dblp_operation_v1(conf_name, dblp_url, sleep_delay=0):
     try:
+        sleep(sleep_delay)
+        
         s = str(conf_name).split(' ') # example: "dexa 2002"
         url = dblp_url + s[0] + '/index.html' # example: "https://dblp.org/db/conf/dexa/index.html"
     except:
@@ -48,8 +51,10 @@ def get_conf_location_from_dblp_v2(url):
 
 # Prepare the URL and get the conference location from DBLP
 # Called during the MAG preprocess
-def mt_get_mag_conf_location_from_dblp_operation_v2(conf_name, dblp_url):
+def mt_get_mag_conf_location_from_dblp_operation_v2(conf_name, dblp_url, sleep_delay=0):
     try:
+        sleep(sleep_delay)
+        
         s = str(conf_name).split(' ') # example: "dexa 2002"
         url = dblp_url + s[0] + '/' + s[0] + s[1] + '.html' # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
         print(url) # TODO DEBUG
@@ -65,10 +70,11 @@ def mt_get_mag_conf_location_from_dblp_operation_v2(conf_name, dblp_url):
 # ************ DBLP Scraper ***************
 # Prepare the URL and get the conference location from DBLP
 # Called during the DBLP preprocess
-def mt_get_dblp_conf_location_from_dblp_operation(conf_name, dblp_url):
+def mt_get_dblp_conf_location_from_dblp_operation(conf_url, dblp_url, sleep_delay=0):
     try:
-        s = str(conf_name).split(' ') # example: "dexa 2002"
-        url = dblp_url + s[0] + '/' + s[0] + s[1] + '.html' # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
+        sleep(sleep_delay)
+
+        url = dblp_url + conf_url # example: "https://dblp.org/db/conf/dexa/dexa2002.html"
         print(url) # TODO DEBUG
     except:
         pass
@@ -76,7 +82,7 @@ def mt_get_dblp_conf_location_from_dblp_operation(conf_name, dblp_url):
         d_item = get_conf_location_from_dblp_v2(url)
     except:
         d_item = np.nan
-    return conf_name, d_item
+    return conf_url, d_item
 
 
 
