@@ -1,5 +1,5 @@
 # ConfTur Terzulli
-**ConfTur project**'s repository - **Marco Terzulli**'s Internship and Thesis for the **Master Degree in Computer Science** at [**University of Modena e Reggio Emilia**](https://www.unimore.it/).
+**ConfTur project**'s repository - **Marco Terzulli**'s Internship and Thesis for the **Master Degree in Computer Science** at [**University of Modena and Reggio Emilia**](https://www.unimore.it/).
 
 ## Table of Contents
 <ol>
