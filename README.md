@@ -1,95 +1,94 @@
 # ConfTur Terzulli
-Repository contenente i file di lavoro per il progetto ConfTur. Tirocinio di **Marco Terzulli**.
+**ConfTur project**'s repository - **Marco Terzulli**'s Internship and Thesis for the **Master Degree in Computer Science** at [**University of Modena e Reggio Emilia**](https://www.unimore.it/).
 
-## Indice dei Contenuti
+## Table of Contents
 <ol>
 	<li>
-		<a href="#per-iniziare">Per Iniziare</a>
+		<a href="#get-started">Get Started</a>
 		<ul>
-			<li><a href="#prerequisiti">Prerequisiti</a></li>
-			<li><a href="#installaione">Installazione</a></li>
+			<li><a href="#prerequisites">Prerequisites</a></li>
+			<li><a href="#installation">Installation</a></li>
 		</ul>
 	</li>
-	<li><a href="#dump-datasets-citazioni">Dump Datasets Citazioni</a></li>
-	<li><a href="#software-usato-per-lo-sviluppo">Software Usato per lo Sviluppo</a></li>
-	<li><a href="#problemi-noti">Problemi Noti</a></li>
-	<li><a href="#riferimenti">Riferimenti</a></li>
+	<li><a href="#citation-datasets-dumps">Citation Datasets Dumps</a></li>
+	<li><a href="#software--used-for-developmento">Software Used for Development</a></li>
+	<li><a href="#known-issues">Known Issues</a></li>
+	<li><a href="#references">References</a></li>
 	<li>
-		<a href="#appendice">Appendice</a>
+		<a href="#appendix">Appendix</a>
 		<ul>
-			<li><a href="#contenuto-della-cartella-di-progetto">Contenuto della Cartella di Progetto</a></li>
+			<li><a href="#contents-of-the-project-folder">Contents of the Project Folder</a></li>
 		</ul>
 	</li>
 </ol>
  
  
-## Per iniziare
+## Get Started
 
-Le seguenti istruzioni ti permetteranno di avere una copia del progetto funzionante sulla tua macchina locale.
+The following instructions will allow you to have a working copy of the project on your local machine.
 
-### Prerequisiti
+### Prerequisites
 
-Software da installare affinché il progetto funzioni, e come installarlo.
+Software to install for the project to work, and how to install it.
 
 ```
-* Una macchina con sistema operativo Windows, Linux o MacOS
+* A Windows, Linux or MacOS machine
 * Python 3.7+
 * Python Pip3
 * TODO
 ```
 
-Installare le Librerie Python necessarie mediante il seguente comando da shell: ```pip install -r requirements.txt```
+Install the necessary Python Libraries using the following shell command: ```pip install -r requirements.txt```
 
-### Installazione
+### Installation
 
 TODO: <br />
 
-<p align="right">(<a href="#top">torna in cima</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-## Dump Datasets Citazioni
-Ai seguenti URL è possibile scaricare i dump dei dataset di partenza utilizzati:
+## Citation Datasets Dumps
+At the following URLs it is possible to download the dumps of the starting datasets used in this project:
 * [DBLP](https://dblp.uni-trier.de/xml/) - Dump Digital Bibliography & Library Project,
-* [Microsoft Academics Graph](https://archive.org/download/mag-2021-06-07/mag/) - Dump *MAG* - Piattaforma dismessa. Dump disponibile sulla piattaforma Archive.org
+* [Microsoft Academics Graph](https://archive.org/download/mag-2021-06-07/mag/) - Dump *MAG* - Disused platform. Dump available on the **Archive.org** platform
 * [OpenCitations COCI](https://opencitations.net/download) - Dump Crossref OpenCitations Index
 
-<p align="right">(<a href="#top">torna in cima</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Software Usato per lo Sviluppo
-* [Jupyter Notebook](https://jupyter.org/) - Piattaforma di sviluppo per il linguaggio Python
-* [Visual Studio Code](https://code.visualstudio.com/) - IDE usato per sviluppo e test
+## Software Used for Development
+* [Jupyter Notebook](https://jupyter.org/) - Development platform for the Python language
+* [Visual Studio Code](https://code.visualstudio.com/) - IDE used for development and testing
 
-<p align="right">(<a href="#top">torna in cima</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Problemi noti
+## Known Issues
 * 
 
-<p align="right">(<a href="#top">torna in cima</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Riferimenti
+## References
 * [Repository dblp-to-csv](https://github.com/ThomHurks/dblp-to-csv) - Source of the DBLP XML to CSV Conversion Script
 
-<p align="right">(<a href="#top">torna in cima</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Appendice
+## Appendix
 
-### Contenuto della Cartella di Progetto
-* ```1 - Citation Dumps Preprocess``` - Cartella di lavoro contenente i notebook per la gestione del preprocessing dei dati di partenza sulle citazioni
-	* ```preprocess_dblp.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di DBLP. (*versione Beta*)
-	* ```preprocess_mag.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di Microsoft Academics Graph. Possibilità di utilizzo di un CSV preprocessato per il file Papers (risultato da una precedente elaborazione mediante questo script).
-	* ```preprocess_opencitations.ipynb``` - Jupyter Notebook per la gestione del preprocessing del dump di OpenCitations. Script per elaborazione e merge sequenziale di tutti i file in una directory. Possibilità di merge con CSV risultato dall'elaborazione di un subset del dump.
-	* ```XMLToCSV.py``` - Script Python per la conversione del Dump di DBLP da XML a CSV. Lo script è stato realizzato da *Thom Hurks* (vedere sezione Riferimenti)
+### Contents of the Project Folder
+* ```1 - Citation Dumps Preprocess``` - Workbook containing the notebooks for managing the preprocessing of the starting data on the citations
+	* ```preprocess_dblp.ipynb``` -Jupyter Notebook for DBLP dump preprocessing management.
+	* ```preprocess_mag.ipynb``` -  Jupyter Notebook for managing the preprocessing of the Microsoft Academics Graph dump. Possibility of using a preprocessed CSV for the Papers file (result from a previous processing using this script).
+	* ```preprocess_opencitations.ipynb``` - Jupyter Notebook for managing the preprocessing of the OpenCitations dump. Script for sequential processing and merging of all files in a directory. Possibility of merge with CSV resulting from the processing of a subset of the dump.
+	* ```XMLToCSV.py``` - Python script for converting the DBLP Dump from XML to CSV. The script was made by *Thom Hurks* (see References section)
 
-* ```2 - Conference Location Web Scraping``` - Cartella di lavoro contenente i notebook per la gestione del web scraping sulle location delle conferenze
-	* ```Old Files Backup``` - Cartella di di backup per i vecchi file di lavoro
-	* ```1 - dblp_location_scraper.ipynb``` - Jupyter Notebook per la gestione del web scraping sulle location del dump di DBLP.
-	* ```1 - location_scraper_multithread_utils.py``` - File Python con le definizioni delle funzioni per il web scraping mediante multithreading e multiprocessing.
-	* ```1 - mag_location_scraper.ipynb``` - Jupyter Notebook per la gestione del web scraping sulle location del dump di Microsoft Academics Graph.
-	* ```1 - dblp_location_scraper.ipynb``` - Jupyter Notebook per il fix delle location di DBLP mancanti utilizzando il dump di DBLP.
-	* ```1 - mag_location_scraper.ipynb``` - Jupyter Notebook per il fix delle location di Microsoft Academics Graph mancanti utilizzando il dump di DBLP.
- * TODO
+* ```2 - Conference Location Web Scraping``` - Workbook containing notebooks for managing web scraping on conference locations
+	* ```Old Files Backup``` - Backup folder for old work files
+	* ```1 - dblp_location_scraper.ipynb``` - Jupyter Notebook for web scraping management on DBLP dump locations.
+	* ```1 - location_scraper_multithread_utils.py``` - Python file with function definitions for web scraping using multithreading and multiprocessing.
+	* ```1 - mag_location_scraper.ipynb``` - Jupyter Notebook for the management of web scraping on the locations of the Microsoft Academics Graph dump.
+	* ```1 - dblp_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing DBLP locations using the DBLP dump.
+	* ```1 - mag_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing Microsoft Academic Graph locations using the DBLP dump.
  * 
 
-<p align="right">(<a href="#top">torna in cima</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
