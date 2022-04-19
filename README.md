@@ -35,7 +35,6 @@ Software to install for the project to work, and how to install it.
 * A Windows, Linux or MacOS machine
 * Python 3.7+
 * Python Pip3
-* TODO
 ```
 
 Install the necessary Python Libraries using the following shell command: ```pip install -r requirements.txt```
