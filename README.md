@@ -88,11 +88,11 @@ At the following URLs it is possible to download the dumps of the starting datas
 
 * ```2 - Conference Location Web Scraping``` - Workbook containing notebooks for managing web scraping on conference locations
 	* ```Old Files Backup``` - Backup folder for old work files
-	* ```1 - dblp_location_scraper.ipynb``` - Jupyter Notebook for web scraping management on DBLP dump locations.
-	* ```1 - location_scraper_multithread_utils.py``` - Python file with function definitions for web scraping using multithreading and multiprocessing.
-	* ```1 - mag_location_scraper.ipynb``` - Jupyter Notebook for the management of web scraping on the locations of the Microsoft Academics Graph dump.
-	* ```1 - dblp_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing DBLP locations using the DBLP dump.
-	* ```1 - mag_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing Microsoft Academic Graph locations using the DBLP dump.
+	* ```1 - dblp_add_locations_from_raw_dblp_dump.ipynb``` - Jupyter Notebook for adding the DBLP conferences locations using the proceedings data extracted from the RAW XML DBLP Dump.
+	* ```1 - mag_fix_locations_from_raw_dblp_dump.ipynb``` - Jupyter Notebook for fixing the missing Microsoft Academics Graph conferences locations using the proceedings data extracted from the RAW XML DBLP Dump.
+	* ```2 - dblp_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing DBLP conferences locations via web scraping to the DBLP website.
+	* ```2 - mag_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing Microsoft Academics Graph conferences locations via web scraping to the DBLP website.
+	* ```location_scraper_multithread_utils.py``` - Python file with function definitions for web scraping using multithreading and multiprocessing.
  * 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
