@@ -1,5 +1,6 @@
 # ConfTur Terzulli
-**ConfTur project**'s repository - **Marco Terzulli**'s Internship and Thesis for the **Master Degree in Computer Science** at [**University of Modena and Reggio Emilia**](https://www.unimore.it/).<br>
+**ConfTur project**'s repository - **Marco Terzulli**'s Internship and Thesis for the **Master Degree in Computer Science** at [**University of Modena and Reggio Emilia**](https://www.unimore.it/).
+<br><br>
 This repository contains code which analyzes data for studying the correlation between the *"touristicy"* of conference venue and its articles impact.
 
 ## Table of Contents
