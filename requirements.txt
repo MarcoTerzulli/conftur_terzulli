@@ -1,4 +1,6 @@
+notebook
 pandas
+numpy
 glob
 BeautifulSoup
 spacy
