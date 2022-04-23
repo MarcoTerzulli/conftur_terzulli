@@ -46,9 +46,7 @@ Install the necessary Python Libraries using the following shell command: ```pip
 #### Download of the Spacy Pipelines
 Before getting started, be sure to download the Spacy Pipelines that is needed for the NLP operations.
 
-You can do so by running the following command in a Python shell: ```python -m spacy download xx_ent_wiki_sm```
-
-TODO: <br />
+You can do so by running the following command in a Python shell: ```python -m spacy download en_core_web_lg```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -69,7 +67,7 @@ At the following URLs it is possible to download the dumps of the starting datas
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Known Issues
-* 
+No known issues so far.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
