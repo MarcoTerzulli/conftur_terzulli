@@ -72,7 +72,8 @@ No known issues so far.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## References
-* [Repository dblp-to-csv](https://github.com/ThomHurks/dblp-to-csv) - Source of the DBLP XML to CSV Conversion Script
+* [Repository dblp-to-csv](https://github.com/ThomHurks/dblp-to-csv) - Source of the DBLP XML to CSV Conversion Script included in the *"1 - Citation Dumps Preprocess* folder. All the rights of that script go to **Thom Hurks**, its author.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
