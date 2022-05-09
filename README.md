@@ -83,20 +83,20 @@ No known issues so far.
 ### Contents of the Project Folder
 
 * **Dataset Creation Pipeline** - This folder cointains the whole pipeline for the creation of the used datasets
-	* ```1 - Citation Dumps Preprocess``` - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
+	* **1 - Citation Dumps Preprocess** - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
 		* ```preprocess_dblp.ipynb``` - Jupyter Notebook for DBLP dump preprocessing management.
 		* ```preprocess_mag.ipynb``` -  Jupyter Notebook for managing the preprocessing of the Microsoft Academics Graph dump. Possibility of using a preprocessed CSV for the Papers file (result from a previous processing using this script).
 		* ```preprocess_opencitations.ipynb``` - Jupyter Notebook for managing the preprocessing of the OpenCitations dump. Script for sequential processing and merging of all files in a directory. Possibility of merge with CSV resulting from the processing of a subset of the dump.
 		* ```XMLToCSV.py``` - Python script for converting the DBLP Dump from XML to CSV. The script was made by *Thom Hurks* (see References section)
 
-	* ```2 - Conference Location Web Scraping``` - Folder containing the notebooks for managing the web scraping on conference locations
+	* **2 - Conference Location Web Scraping** - Folder containing the notebooks for managing the web scraping on conference locations
 		* ```1 - dblp_add_locations_from_raw_dblp_dump.ipynb``` - Jupyter Notebook for adding the DBLP conferences locations using the proceedings data extracted from the RAW XML DBLP Dump.
 		* ```1 - mag_fix_locations_from_raw_dblp_dump.ipynb``` - Jupyter Notebook for fixing the missing Microsoft Academics Graph conferences locations using the proceedings data extracted from the RAW XML DBLP Dump.
 		* ```2 - dblp_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing DBLP conferences locations via web scraping to the DBLP website.
 		* ```2 - mag_location_scraper.ipynb``` - Jupyter Notebook for fixing the missing Microsoft Academics Graph conferences locations via web scraping to the DBLP website.
 		* ```location_scraper_multithread_utils.py``` - Python file with function definitions for web scraping using multithreading and multiprocessing.
 	
-	* ```3 - Citation and Conference Data Join```- Folder containing the notebooks for managing the citation and locations data join operations between the COCI, DBLP and MAG processed datasets
+	* **3 - Citation and Conference Data Join**- Folder containing the notebooks for managing the citation and locations data join operations between the COCI, DBLP and MAG processed datasets
 		* ```1 - DBLP and MAG Data Join.ipynb``` - Jupyter Notebook for the join operations between the DBLP and MAG processed dumps.
 		* ```2 - DBLP+MAG and COCI Data Join``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI processed dumps.
 		* ```3 - DBLP + MAG Join with COCI RAW for By Year Citations``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI RAW dump. This notebook is going to produce a new dataset containing the papers citations for every year (extracted from the COCI dump).
