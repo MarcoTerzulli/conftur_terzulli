@@ -84,6 +84,26 @@ No known issues so far.
 <details>
 	<summary>Dataset Creation Pipeline - This folder cointains the whole pipeline for the creation of the used datasets</summary>
 
+	<ol>
+		<li>
+			<a style="background-color: #FFFF00">1 - Citation Dumps Preprocess</a><a> - Folder containing the notebooks for managing the preprocessing of the starting data on the citations</a>
+			<ul>
+				<li><a href="#prerequisites">Prerequisites</a></li>
+				<li><a href="#installation">Installation</a></li>
+			</ul>
+		</li>
+		<li><a href="#citation-datasets-dumps">Citation Datasets Dumps</a></li>
+		<li><a href="#software--used-for-developmento">Software Used for Development</a></li>
+		<li><a href="#known-issues">Known Issues</a></li>
+		<li><a href="#references">References</a></li>
+		<li>
+			<a href="#appendix">Appendix</a>
+			<ul>
+				<li><a href="#contents-of-the-project-folder">Contents of the Project Folder</a></li>
+			</ul>
+		</li>
+	</ol>
+
 	* ```1 - Citation Dumps Preprocess``` - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
 		* ```preprocess_dblp.ipynb``` - Jupyter Notebook for DBLP dump preprocessing management.
 		* ```preprocess_mag.ipynb``` -  Jupyter Notebook for managing the preprocessing of the Microsoft Academics Graph dump. Possibility of using a preprocessed CSV for the Papers file (result from a previous processing using this script).
