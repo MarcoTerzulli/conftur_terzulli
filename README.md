@@ -81,32 +81,8 @@ No known issues so far.
 ## Appendix
 
 ### Contents of the Project Folder
-<details>
-	<summary>Dataset Creation Pipeline - This folder cointains the whole pipeline for the creation of the used datasets</summary>
 
-	<ol>
-		<li>
-			<a style="background-color: #FFFF00">1 - Citation Dumps Preprocess</a><a> - Folder containing the notebooks for managing the preprocessing of the starting data on the citations</a>
-			<ul>
-				<li><a href="#prerequisites">Prerequisites</a></li>
-				<li><a href="#installation">Installation</a></li>
-			</ul>
-		</li>
-		<li><a href="#citation-datasets-dumps">Citation Datasets Dumps</a></li>
-		<li><a href="#software--used-for-developmento">Software Used for Development</a></li>
-		<li><a href="#known-issues">Known Issues</a></li>
-		<li><a href="#references">References</a></li>
-		<li>
-			<a href="#appendix">Appendix</a>
-			<ul>
-				<li><a href="#contents-of-the-project-folder">Contents of the Project Folder</a></li>
-			</ul>
-		</li>
-	</ol>
-
- </details>
-
-
+* ```Dataset Creation Pipeline``` - This folder cointains the whole pipeline for the creation of the used datasets
 	* ```1 - Citation Dumps Preprocess``` - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
 		* ```preprocess_dblp.ipynb``` - Jupyter Notebook for DBLP dump preprocessing management.
 		* ```preprocess_mag.ipynb``` -  Jupyter Notebook for managing the preprocessing of the Microsoft Academics Graph dump. Possibility of using a preprocessed CSV for the Papers file (result from a previous processing using this script).
@@ -124,5 +100,6 @@ No known issues so far.
 		* ```1 - DBLP and MAG Data Join.ipynb``` - Jupyter Notebook for the join operations between the DBLP and MAG processed dumps.
 		* ```2 - DBLP+MAG and COCI Data Join``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI processed dumps.
 		* ```3 - DBLP + MAG Join with COCI RAW for By Year Citations``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI RAW dump. This notebook is going to produce a new dataset containing the papers citations for every year (extracted from the COCI dump).
+ * 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
