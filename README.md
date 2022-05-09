@@ -99,7 +99,7 @@ No known issues so far.
 	* **3 - Citation and Conference Data Join** - Folder containing the notebooks for managing the citation and locations data join operations between the COCI, DBLP and MAG processed datasets
 		* ```1 - DBLP and MAG Data Join.ipynb``` - Jupyter Notebook for the join operations between the DBLP and MAG processed dumps.
 		* ```2 - DBLP+MAG and COCI Data Join``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI processed dumps.
-		* ```3 - DBLP + MAG Join with COCI RAW for By Year Citations``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI RAW dump. This notebook is going to produce a new dataset containing the papers citations for every year (extracted from the COCI dump).
+		* ```3 - DBLP + MAG Join with COCI RAW for By Year Citations``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI RAW dump. This notebook is going to produce a new dataset containing the papers citations for every year (extracted from the RAW COCI dump).
  * 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
