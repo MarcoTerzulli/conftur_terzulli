@@ -81,8 +81,8 @@ No known issues so far.
 ## Appendix
 
 ### Contents of the Project Folder
-* <details>
-	<summary>```Dataset Creation Pipeline``` - This folder cointains the whole pipeline for the creation of the used datasets</summary>
+<details>
+	<summary><mark>Dataset Creation Pipeline</mark> - This folder cointains the whole pipeline for the creation of the used datasets</summary>
 
 	* ```1 - Citation Dumps Preprocess``` - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
 		* ```preprocess_dblp.ipynb``` - Jupyter Notebook for DBLP dump preprocessing management.
