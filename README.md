@@ -82,7 +82,7 @@ No known issues so far.
 
 ### Contents of the Project Folder
 
-* ```Dataset Creation Pipeline``` - This folder cointains the whole pipeline for the creation of the used datasets
+* **Dataset Creation Pipeline** - This folder cointains the whole pipeline for the creation of the used datasets
 	* ```1 - Citation Dumps Preprocess``` - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
 		* ```preprocess_dblp.ipynb``` - Jupyter Notebook for DBLP dump preprocessing management.
 		* ```preprocess_mag.ipynb``` -  Jupyter Notebook for managing the preprocessing of the Microsoft Academics Graph dump. Possibility of using a preprocessed CSV for the Papers file (result from a previous processing using this script).
