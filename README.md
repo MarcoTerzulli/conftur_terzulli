@@ -81,7 +81,9 @@ No known issues so far.
 ## Appendix
 
 ### Contents of the Project Folder
-* ```Dataset Creation Pipeline``` - This folder cointains the whole pipeline for the creation of the used datasets
+* <details>
+	<summary>```Dataset Creation Pipeline``` - This folder cointains the whole pipeline for the creation of the used datasets</summary>
+
 	* ```1 - Citation Dumps Preprocess``` - Folder containing the notebooks for managing the preprocessing of the starting data on the citations
 		* ```preprocess_dblp.ipynb``` - Jupyter Notebook for DBLP dump preprocessing management.
 		* ```preprocess_mag.ipynb``` -  Jupyter Notebook for managing the preprocessing of the Microsoft Academics Graph dump. Possibility of using a preprocessed CSV for the Papers file (result from a previous processing using this script).
@@ -99,6 +101,6 @@ No known issues so far.
 		* ```1 - DBLP and MAG Data Join.ipynb``` - Jupyter Notebook for the join operations between the DBLP and MAG processed dumps.
 		* ```2 - DBLP+MAG and COCI Data Join``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI processed dumps.
 		* ```3 - DBLP + MAG Join with COCI RAW for By Year Citations``` - Jupyter Notebook for the join operations between the DBLP + MAG (joined dumps) and the COCI RAW dump. This notebook is going to produce a new dataset containing the papers citations for every year (extracted from the COCI dump).
- * 
+ </details>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
