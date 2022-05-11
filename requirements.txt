@@ -4,5 +4,4 @@ numpy
 glob
 BeautifulSoup
 spacy
-usaddress
 geopy
