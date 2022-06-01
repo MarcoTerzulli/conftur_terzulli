@@ -103,6 +103,9 @@ No known issues so far.
 	
 	* **4 - Citation and Conference Locations Data Cleanup** - Folder containing the notebooks for managing the disambiguation and normalization operations of the conference locations contained in the joined datasets.
 		* ```Conference Locations Data Cleanup.ipynb``` - Jupyter Notebook for the disambiguation and normalization operations of the conference locations contained in the joined datasets.
+	
+	* **5 - Conference Locations Ranking Integration** - Folder containing the notebooks for managing the integration of some conference ranking metrics.
+		* ```1 - Grin Conference Rating Integration.ipynb``` - Jupyter Notebook for the integration of the Grin Conference Rating to the cleaned Conference Citations and Locations dataset.
  * 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
