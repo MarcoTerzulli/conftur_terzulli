@@ -5,3 +5,4 @@ glob
 BeautifulSoup
 spacy
 geopy
+pyxlsb
