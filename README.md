@@ -105,10 +105,12 @@ No known issues so far.
 		* ```Conference Locations Data Cleanup.ipynb``` - Jupyter Notebook for the disambiguation and normalization operations of the conference locations contained in the joined datasets.
 	
 	* **5 - Conference Locations Ranking Integration** - Folder containing the notebooks for managing the integration of some conference ranking metrics.
-		* ```1 - Citation and Locations Dataset Preparation``` - Jupyter Notebook for the preparation of the cleaned Conference Citations and Locations dataset to the conference ranking data integration.
+		* ```1 - Citation and Locations Dataset Preparation.ipynb``` - Jupyter Notebook for the preparation of the cleaned Conference Citations and Locations dataset to the conference ranking data integration.
 		* ```2 - CORE Conference Ranking Integration.ipynb``` - Jupyter Notebook for the integration of the CORE Conference Ranking to the cleaned Conference Citations and Locations dataset.
 		* ```2 - GRIN Conference Rating Integration.ipynb``` - Jupyter Notebook for the integration of the GRIN Conference Rating to the cleaned Conference Citations and Locations dataset.
-		* ```2 - Scopus CiteScore Conference Ranking Integration.ipynb``` - Jupyter Notebook for the integration of the Scopus CiteScore Conference Ranking to the cleaned Conference Citations and Locations dataset.
+	
+	* **6 - Conference Acceptance Rate Data Integration** - Folder containing the notebooks for managing the integration of the conferences acceptance rate data.
+		* ```1 - Poggi Data Integration.ipynb``` - Jupyter Notebook for the integration of the conferences acceptance rate data obtained by **Prof. Francesco Poggi** (Prof at the University of Modena and Reggio Emilia) to the cleaned Conference Citations and Locations dataset.
  * 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
