@@ -111,6 +111,11 @@ No known issues so far.
 	
 	* **6 - Conference Acceptance Rate Data Integration** - Folder containing the notebooks for managing the integration of the conferences acceptance rate data.
 		* ```1 - Poggi Data Integration.ipynb``` - Jupyter Notebook for the integration of the conferences acceptance rate data obtained by **Prof. Francesco Poggi** (Prof at the University of Modena and Reggio Emilia) to the cleaned Conference Citations and Locations dataset.
- * 
+	
+	* **7 - Citation Datasets Separation for the Analysis** - Folder containing the notebooks for managing the separation of the different citation data sources from the joined datasets, making the data ready for our analysis.
+		* ```Citation Datasets Separation for the Analysis.ipynb``` - Jupyter Notebook for the separation of the different citation data sources from the joined datasets. This notebook is going to create single datasets for the MAG and COCI citations (but keeping the location infos together). The new datasets are going to have a common structure, making them ready for our analysis.
+ 
+* **Analysis** - This folder cointaining the notebook with the scripts used by our analysis
+	* ```Analysis.ipynb.ipynb``` - Jupyter Notebook containing the scripts used by our analysis and some comments for the obtained results.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
