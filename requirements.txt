@@ -6,3 +6,6 @@ BeautifulSoup
 spacy
 geopy
 pyxlsb
+seaborn
+scipy
+matplotlib
