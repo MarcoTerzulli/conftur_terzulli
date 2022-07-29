@@ -39,7 +39,7 @@ def mt_get_city_swp_operation_v1(conf_location, wikipedia_url, sleep_delay=0):
 def mt_get_city_swp_operation_v2(conf_location, wikipedia_url, sleep_delay=0):
     try:
         sleep(sleep_delay)
-        url = wikipedia_url + conf_location[1] + ',_' + conf_location[0].split(',')[1].replace(' ', '_') # example: "https://en.wikipedia.org/wiki/Auburn,_Washington"
+        url = wikipedia_url + conf_location[1] + ',' + conf_location[0].split(',')[1].replace(' ', '_') # example: "https://en.wikipedia.org/wiki/Auburn,_Washington"
     except:
         pass
     try:
