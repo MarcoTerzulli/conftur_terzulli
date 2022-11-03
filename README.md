@@ -120,6 +120,10 @@ No known issues so far.
 
 	* **9 - Turistic Indexes Web Scraping** - Folder containing the notebooks for managing the web scraping of the Turistic Indexes.
 		* ```Citation Datasets Separation for the Analysis.ipynb``` - Jupyter Notebook for the creation of the SWP (Size of the Wikepedia) Index via Web Scraping.
+
+	* **9 - 10 - Touristic Indexes Join and Cleanup** - Folder containing the notebooks for managing the join and cleanup of the Turistic Indexes, which have been gathered by **Marco Lupis** (bechelor's degree student in Computer Science at the University of Modena and Reggio Emilia).
+		* ```1 - city_touristic_indexes_join.ipynb``` - Jupyter Notebook for the join of all the city touristic indexes.
+		* ```2 - country_touristic_indexes_cleanup.ipynb``` - Jupyter Notebook for the cleanup of country touristic index database.
  
 * **Analysis** - This folder cointaining the notebook with the scripts used by our analysis
 	* ```Analysis.ipynb.ipynb``` - Jupyter Notebook containing the scripts used by our analysis and some comments for the obtained results.
