@@ -16,7 +16,7 @@ This repository contains code which analyzes data for studying the correlation b
 		<a href="#origin-datasets-for-the-dataset-creation-pipeline">Origin Datasets for the Dataset Creation Pipelined</a>
 		<ul>
 			<li><a href="#citation-datasets-dumps">Citation Datasets Dumps</a></li>
-			<li><a href="#marco-lupis's-touristic-datasets">Marco Lupis's Touristic Datasets</a></li>
+			<li><a href="#marco-lupiss-touristic-datasets">Marco Lupis's Touristic Datasets</a></li>
 		</ul>
 	</li>
 	<li><a href="#software--used-for-developmento">Software Used for Development</a></li>
